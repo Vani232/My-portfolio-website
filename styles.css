@@ -72,11 +72,24 @@ body {
     text-align: center;
     transition: background 0.3s, color 0.3s;
 }
-img{
+/* img{
     border-radius: 50px;
     width:100px;
     
+} */
+img {
+    border-radius: 50%;
+    width: 150px;  /* Increase size */
+    height: 150px;
+    display: block;
+    margin: 0 auto; /* Center the image */
 }
+.social-icons {
+    width: 50px;  /* Increase size of social icons */
+    height: 50px;
+    margin: 10px;
+}
+
 header {
     background: #222;
     color: white;
@@ -162,13 +175,6 @@ footer {
     padding: 10px;
     list-style: none;
 }
-
-.social-icons {
-    width: 40px; /* Adjust the size of icons */
-    height: 40px;
-    margin: 10px;
-}
-
 
 /* Dark Mode */
 .dark-mode {
